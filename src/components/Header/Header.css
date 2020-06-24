@@ -1,0 +1,58 @@
+hr {
+	border-top: 1px solid #dadada;
+	border-bottom: none;
+}
+
+.socialMediaContainer {
+	display: flex;
+	justify-content: space-between;
+	background: #ffab91;
+	align-items: center;
+	padding: 15px 0 15px 180px;
+}
+
+.socialMediaContainer ul {
+	margin: 0;
+	padding: 0;
+}
+
+.socialMediaContainer ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 0 5px;
+}
+
+.socialMediaContainer ul li img {
+	cursor: pointer;
+}
+
+.socialMediaContainer ul li:last-child img {
+	margin-left: 1000px;
+}
+
+.logoContainer {
+	margin-bottom: 25px;
+}
+
+.navContainer {
+	display: inline-block;
+	margin: 7px 0;
+}
+
+.navContainer ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.navContainer ul li {
+	list-style: none;
+	padding: 0 10px;
+}
+
+.navContainer ul li a {
+	text-decoration: none;
+	color: black;
+	font-family: "Quattrocento Sans", sans-serif;
+	font-weight: 500;
+}

@@ -1,0 +1,180 @@
+* {
+	box-sizing: border-box;
+}
+
+p {
+	font-size: 14px;
+	font-family: "Quattrocento Sans", sans-serif;
+	font-weight: 500;
+	padding: 10px 20px;
+	line-height: 1.8;
+}
+
+.sidebarContainer {
+	width: 27%;
+	margin-right: 30px;
+}
+
+.sidebarItem {
+	margin: 20px;
+	margin-bottom: 40px;
+}
+
+.sideItemHeading {
+	background: #ffab91;
+	font-family: "Playfair Display", serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: white;
+	padding: 5px 0;
+}
+
+.aboutMeImage {
+	margin: 30px 0;
+}
+
+.aboutMeImage img {
+	max-width: 100%;
+	border-radius: 50%;
+	height: 225px;
+	width: 225px;
+}
+
+#welcome {
+	font-family: "Quattrocento Sans", sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.welcomeTextDeco {
+	border-top: 1px solid #ffab91;
+	margin: 0 100px;
+}
+
+.linksContainer {
+	display: flex;
+	justify-content: space-between;
+	display: inline-block;
+	align-items: center;
+	padding: 40px 0 10px 0;
+}
+
+.linksContainer ul {
+	margin: 0;
+	padding: 0;
+}
+
+.linksContainer ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 0 10px;
+}
+
+.linksContainer ul li img {
+	cursor: pointer;
+}
+
+.emailInput {
+	padding: 10px 20px;
+	width: 100%;
+	border: 1px solid #ebebeb;
+	border-radius: 1px;
+	background-color: #fcfcfc;
+	font-size: 15px;
+	font-family: "Quattrocento Sans", sans-serif;
+	font-weight: 500;
+}
+
+::placeholder {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.subscribeButton {
+	margin-top: 20px;
+	width: 100%;
+	font-size: 15px;
+	font-family: "Playfair Display", serif;
+	font-weight: 700;
+	border: 1px solid #ebebeb;
+	padding: 8px 0;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: color 300ms ease-in;
+}
+
+.subscribeButton:hover {
+	color: #818181;
+}
+
+.labelMenu {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	list-style-type: square;
+	margin: 0;
+	padding: 20px 0;
+	list-style: none;
+	margin-bottom: -30px;
+}
+
+.labelMenu li {
+	text-align: left;
+	color: #313131;
+	font-size: 16px;
+	font-family: "Quattrocento Sans", sans-serif;
+	font-weight: 500;
+	padding: 5px;
+	width: 100%;
+}
+
+.labelMenu li div {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 5px;
+	transition: color 400ms ease-in-out;
+	cursor: pointer;
+}
+
+.labelMenu li div:hover {
+	color: #ffab91;
+}
+
+.postCardContainer {
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: 115px auto;
+}
+
+.postCardContainer > img {
+	width: 115px;
+	height: 75px;
+}
+
+.postInfo {
+	padding: 0 2px 3px 10px;
+	display: grid;
+	grid-template-rows: auto auto;
+	text-align: left;
+}
+
+.postInfo span {
+	font-family: "Playfair Display", serif;
+	font-weight: 700;
+	text-align: left;
+}
+
+.postInfo small {
+	color: #888888;
+	font-size: 12px;
+	padding-left: 4px;
+}
+
+.postInfo div {
+	display: flex;
+	align-items: center;
+}
+
+.postDivider {
+	margin-top: 20px;
+}
